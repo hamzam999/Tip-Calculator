@@ -11,7 +11,7 @@ function calculateTip()
       alert('Please Enter Bill Amount')
       return
     }
-    if (persons === '0' || persons === '') {
+    if (persons <= '0' || persons === '') {
       alert('Please Enter Number of people')
       return
     }
